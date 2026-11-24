@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.auditae/mcp",
+  "title": "AuditAE SEO MCP",
+  "description": "SEO MCP: Search Console, GA4, SERP and domain data, rank tracking, AI citations and site fixes.",
+  "version": "0.1.1",
+  "websiteUrl": "https://auditae.app/seo-mcp",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://auditae.app/api/mcp"
+    },
+    {
+      "type": "streamable-http",
+      "url": "https://auditae.app/api/mcp/pay"
+    }
+  ]
+}
